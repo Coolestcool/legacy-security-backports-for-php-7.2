@@ -1,0 +1,28 @@
+name: Compatibility or build report
+description: Report a sanitized result for a specific source and environment.
+body:
+  - type: input
+    id: source
+    attributes:
+      label: PHP source version and package revision
+      placeholder: PHP 7.2.34 and exact distribution revision
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: OS, architecture, compiler, SAPI and relevant extensions
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Commands, expected result and actual result
+      description: Remove credentials, internal addresses and customer data.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation and rollback results
+      description: Distinguish patch check, build, runtime tests and actual deployment.

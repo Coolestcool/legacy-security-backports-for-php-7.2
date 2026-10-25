@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.rej
+*.orig
+build/
+validation/
+.env
+.env.*
+*.pem
+*.key
+*.log

@@ -1,0 +1,2 @@
+35f4820ab80594899db860be6f6d695657509d6186a830fefd5f442bc2bd0330  patches/php72-php2shell.patch
+b4da10ce4bb9aaf57dc3de71f21d200a5a331aec7c34b8c7b946b1db3b9c7e1f  patches/php72-prerequisite-ZSTR_MAX_LEN.patch

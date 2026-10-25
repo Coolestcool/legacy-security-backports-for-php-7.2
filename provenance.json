@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-10-24",
+  "project_maintainer": "Coolestcool",
+  "patches": [
+    {
+      "file": "php72-php2shell.patch",
+      "vendor_archive": "https://packages.sury.org/php/pool/main/p/php7.2/php7.2_7.2.34-66%2B0~20261021.122%2Bdebian12~1.gbpe0bcd4.debian.tar.xz",
+      "vendor_archive_sha256": "b74a28979b65941b6f710871cbd5e08c2d31f87aad45c6fe4818202c78072b4b",
+      "vendor_member": "debian/patches/0159-Avoid-state-corruption-via-bailout.patch",
+      "vendor_patch_sha256": "35f4820ab80594899db860be6f6d695657509d6186a830fefd5f442bc2bd0330",
+      "published_patch_sha256": "35f4820ab80594899db860be6f6d695657509d6186a830fefd5f442bc2bd0330",
+      "byte_identical": true
+    },
+    {
+      "file": "php72-prerequisite-ZSTR_MAX_LEN.patch",
+      "vendor_archive": "https://packages.sury.org/php/pool/main/p/php7.2/php7.2_7.2.34-66%2B0~20261021.122%2Bdebian12~1.gbpe0bcd4.debian.tar.xz",
+      "vendor_member": "debian/patches/0135-backport-ZSTR_MAX_LEN.patch",
+      "byte_identical": true,
+      "sha256": "b4da10ce4bb9aaf57dc3de71f21d200a5a331aec7c34b8c7b946b1db3b9c7e1f"
+    }
+  ],
+  "target_version": "7.2.34"
+}
