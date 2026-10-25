@@ -21,3 +21,10 @@ The earlier combined distribution passed both release matrices in
 That historical result is separate from each version-specific repository's runs.
 No private deployment logs, addresses, credentials, backups or binaries are
 included in this distribution.
+
+## Verified independent CI result
+
+[Run 40152955117](https://github.com/Coolestcool/legacy-security-backports-for-php-7.2/actions/runs/40152955117) completed successfully for
+commit `a2e641dca9ddbcb85c113475e72ffc7d474740b4`. The PHP 7.2.34 source-preparation,
+minimal CLI/CGI/FPM compilation and local CLI/CGI fixture steps all passed.
+Only documentation was updated after this tested commit for the v0.2.0 release.
